@@ -10,15 +10,40 @@
     border-radius: 10px;
     padding: 40px 50px;
 }
+
 .container hr{
     height: 2px;
     border: none;
     background: #707070;
 }
 
+.container h1{
+    text-align: center;
+}
+
 .container h2{
     font-size: 27px;
     font-weight: 500;
+    margin-bottom: 0;
+}
+
+.parent-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.parent-element img {
+    border: 2px solid #262626;
+    border-radius: 10px;
+}
+
+.timer{
+    flex-shrink: 0; /* Prevent shrinking to fit container */
+    align-self: flex-start;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .container ul li{
